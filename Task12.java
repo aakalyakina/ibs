@@ -13,7 +13,7 @@ public class Task12 {
         System.out.println("Результат проверки начала: " + starting);
         System.out.println("Результат проверки окончания: " + ending);
 
-        if (java == true && starting == true && ending == true) {
+        if (java  && starting  && ending ) {
             String result = s.toUpperCase();
             System.out.println("Строка в верхнем регистре : " + result);
         }
