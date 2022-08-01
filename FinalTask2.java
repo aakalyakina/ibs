@@ -30,9 +30,7 @@ public class FinalTask2 {
         else if (xAvailability == -1) {
             System.out.println("Пожалуйста, используйте 'х'");
         }
-        else if (xAvailability != 1) {
-            System.out.println("Введите только один 'х'");
-        }
+
         else if (Character.isDigit(sym1) || 'x' == sym1 || Character.isDigit(sym3) || sym3 == 'x' || Character.isDigit(sym5) || sym5 == 'x')  {
 
         switch (str.charAt(1)) {
